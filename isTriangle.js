@@ -20,7 +20,7 @@ function validateNum(){
 
         }
     }else{
-        showResult.innerText = "Fill both inputs and make sure that inputs are non negative and greater than zero..";
+        showResult.innerText = "Fill both inputs and make sure that inputs are non-negative and greater than zero..";
     }
 }
 
