@@ -1,0 +1,134 @@
+body{
+    background-color:cadetblue;
+}
+
+.header{
+    display: block;
+    text-align: center;
+  margin:auto;
+    max-width: 600px;
+    background-color:#fb923c;
+   padding: 0.5rem;
+}
+.header h1{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding: 0px 1px 0px 1px;
+}
+.pages{
+    display:block;
+    
+}
+.non-bullet{
+    list-style-type: none;
+
+}
+.inline{
+    display: inline;
+    padding:1rem;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 21px;
+    
+}
+.links{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 600px;
+    max-height: 900px;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(251, 146, 60);;
+    margin: auto;
+}
+
+.container h1{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding: 0px 1px 0px 1px;
+}
+
+.container label{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 1rem;
+
+}
+.container input{
+    padding: 1.1rem;
+    height: 0rem;
+    width: 40%;
+    margin: auto;
+    max-width: 400px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    font-family: cursive;
+    text-align: center;
+    font-size: x-large;
+}
+.container button{
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+    font-family: cursive;
+    font-weight: bolder;
+    background-color: rgb(124, 45, 18);
+    color:white;
+
+}
+#result{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.note{
+    margin-bottom: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 26px;
+    color:red;
+}
+
+
+.footer {
+    margin: 1rem 2rem 2rem 2rem;
+    border-top: 2px solid black;
+}
+
+.footer div {
+    color: black;
+    text-align: center;
+    padding: 1rem;    
+}
+
+.footer p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer a {
+    padding-inline: 1rem;
+    font-size: 29px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer .with-para {
+    padding-inline: 0rem;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
