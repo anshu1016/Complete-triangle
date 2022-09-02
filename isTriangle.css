@@ -20,6 +20,11 @@ body{
     display:block;
     
 }
+.pages a.active{
+    width:100%;
+    border-bottom: 2px solid white;
+    padding: 0.4rem;
+}
 .non-bullet{
     list-style-type: none;
 
