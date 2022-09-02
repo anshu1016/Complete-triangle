@@ -2,6 +2,16 @@ var angles = document.querySelectorAll(".input-angle");
 const checkBtn = document.querySelector("#check-btn")
 const showResult = document.querySelector("#result")
 
+let links = document.querySelectorAll(".pages a");
+let bodyId = document.querySelector("body").id;
+ 
+for(let link of links){
+    if(link.dataset.active == bodyId){
+        link.classList.add("active");
+    }
+}
+
+
 checkBtn.addEventListener("click",validateNum)
 
 function validateNum(){
